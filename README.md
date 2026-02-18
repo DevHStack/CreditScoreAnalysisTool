@@ -16,22 +16,6 @@ Main services included:
 The system simulates a credit score calculation and management platform with caching, messaging, and authentication mechanisms.
 
 ---
-Client / UI
-      ↓
-Spring Cloud Gateway
-      ↓
- ┌────────────────────────────┐
- │        Microservices        │
- │                              │
- │  UserManagement Service     │
- │  CreditScoring Service      │
- └────────────────────────────┘
-      ↓
-Supporting Systems
-- Redis Cache
-- Kafka Messaging
-- Email Service
-- Database
 
 
 ## 🧱 Architecture
